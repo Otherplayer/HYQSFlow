@@ -7,15 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		425A80D0FA3D34190923B704 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A97E4A1B34239E5CD5ABEEE /* libPods.a */; };
 		639C7DFF1BF4897A00B796F2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7DFE1BF4897A00B796F2 /* main.m */; };
 		639C7E021BF4897A00B796F2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E011BF4897A00B796F2 /* AppDelegate.m */; };
 		639C7E051BF4897A00B796F2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E041BF4897A00B796F2 /* ViewController.m */; };
 		639C7E081BF4897A00B796F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E061BF4897A00B796F2 /* Main.storyboard */; };
 		639C7E0A1BF4897A00B796F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E091BF4897A00B796F2 /* Assets.xcassets */; };
 		639C7E0D1BF4897A00B796F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E0B1BF4897A00B796F2 /* LaunchScreen.storyboard */; };
+		639C7E171BF4899700B796F2 /* BGWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E161BF4899700B796F2 /* BGWaterFlowLayout.m */; };
+		639C7E1A1BF489CF00B796F2 /* HYQSFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E191BF489CF00B796F2 /* HYQSFlow.m */; };
+		639C7E1D1BF4919300B796F2 /* HYQSFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E1C1BF4919300B796F2 /* HYQSFlowCell.m */; };
+		639C7E1F1BF4940000B796F2 /* pic_url.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E1E1BF4940000B796F2 /* pic_url.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1A97E4A1B34239E5CD5ABEEE /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F5B326F4DA9967024AACCA2 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		5194C70BC148D03308594D12 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		639C7DFA1BF4897A00B796F2 /* HYQWaterFlow.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HYQWaterFlow.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		639C7DFE1BF4897A00B796F2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		639C7E001BF4897A00B796F2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +34,13 @@
 		639C7E091BF4897A00B796F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		639C7E0C1BF4897A00B796F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		639C7E0E1BF4897A00B796F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		639C7E151BF4899700B796F2 /* BGWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGWaterFlowLayout.h; sourceTree = "<group>"; };
+		639C7E161BF4899700B796F2 /* BGWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGWaterFlowLayout.m; sourceTree = "<group>"; };
+		639C7E181BF489CE00B796F2 /* HYQSFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQSFlow.h; sourceTree = "<group>"; };
+		639C7E191BF489CF00B796F2 /* HYQSFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQSFlow.m; sourceTree = "<group>"; };
+		639C7E1B1BF4919300B796F2 /* HYQSFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQSFlowCell.h; sourceTree = "<group>"; };
+		639C7E1C1BF4919300B796F2 /* HYQSFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQSFlowCell.m; sourceTree = "<group>"; };
+		639C7E1E1BF4940000B796F2 /* pic_url.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pic_url.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +48,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				425A80D0FA3D34190923B704 /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1CC8C7C15CFA0E6FD0A83E62 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5194C70BC148D03308594D12 /* Pods.debug.xcconfig */,
+				1F5B326F4DA9967024AACCA2 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		639C7DF11BF4897A00B796F2 = {
 			isa = PBXGroup;
 			children = (
 				639C7DFC1BF4897A00B796F2 /* HYQWaterFlow */,
 				639C7DFB1BF4897A00B796F2 /* Products */,
+				1CC8C7C15CFA0E6FD0A83E62 /* Pods */,
+				F1A8D49DDD976B024DD8F01F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +85,7 @@
 		639C7DFC1BF4897A00B796F2 /* HYQWaterFlow */ = {
 			isa = PBXGroup;
 			children = (
+				639C7E141BF4898200B796F2 /* Flow */,
 				639C7E001BF4897A00B796F2 /* AppDelegate.h */,
 				639C7E011BF4897A00B796F2 /* AppDelegate.m */,
 				639C7E031BF4897A00B796F2 /* ViewController.h */,
@@ -66,6 +94,7 @@
 				639C7E091BF4897A00B796F2 /* Assets.xcassets */,
 				639C7E0B1BF4897A00B796F2 /* LaunchScreen.storyboard */,
 				639C7E0E1BF4897A00B796F2 /* Info.plist */,
+				639C7E1E1BF4940000B796F2 /* pic_url.plist */,
 				639C7DFD1BF4897A00B796F2 /* Supporting Files */,
 			);
 			path = HYQWaterFlow;
@@ -79,6 +108,27 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		639C7E141BF4898200B796F2 /* Flow */ = {
+			isa = PBXGroup;
+			children = (
+				639C7E151BF4899700B796F2 /* BGWaterFlowLayout.h */,
+				639C7E161BF4899700B796F2 /* BGWaterFlowLayout.m */,
+				639C7E181BF489CE00B796F2 /* HYQSFlow.h */,
+				639C7E191BF489CF00B796F2 /* HYQSFlow.m */,
+				639C7E1B1BF4919300B796F2 /* HYQSFlowCell.h */,
+				639C7E1C1BF4919300B796F2 /* HYQSFlowCell.m */,
+			);
+			name = Flow;
+			sourceTree = "<group>";
+		};
+		F1A8D49DDD976B024DD8F01F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A97E4A1B34239E5CD5ABEEE /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -86,9 +136,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 639C7E111BF4897A00B796F2 /* Build configuration list for PBXNativeTarget "HYQWaterFlow" */;
 			buildPhases = (
+				E680EBE2FD55C42867003547 /* Check Pods Manifest.lock */,
 				639C7DF61BF4897A00B796F2 /* Sources */,
 				639C7DF71BF4897A00B796F2 /* Frameworks */,
 				639C7DF81BF4897A00B796F2 /* Resources */,
+				8AC86C25F93778FDAD7C0C8D /* Embed Pods Frameworks */,
+				37E42197C920ED997C4E4592 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -137,6 +190,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				639C7E0D1BF4897A00B796F2 /* LaunchScreen.storyboard in Resources */,
+				639C7E1F1BF4940000B796F2 /* pic_url.plist in Resources */,
 				639C7E0A1BF4897A00B796F2 /* Assets.xcassets in Resources */,
 				639C7E081BF4897A00B796F2 /* Main.storyboard in Resources */,
 			);
@@ -144,13 +198,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		37E42197C920ED997C4E4592 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8AC86C25F93778FDAD7C0C8D /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E680EBE2FD55C42867003547 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		639C7DF61BF4897A00B796F2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				639C7E1D1BF4919300B796F2 /* HYQSFlowCell.m in Sources */,
+				639C7E171BF4899700B796F2 /* BGWaterFlowLayout.m in Sources */,
 				639C7E051BF4897A00B796F2 /* ViewController.m in Sources */,
 				639C7E021BF4897A00B796F2 /* AppDelegate.m in Sources */,
+				639C7E1A1BF489CF00B796F2 /* HYQSFlow.m in Sources */,
 				639C7DFF1BF4897A00B796F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +366,7 @@
 		};
 		639C7E121BF4897A00B796F2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5194C70BC148D03308594D12 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HYQWaterFlow/Info.plist;
@@ -272,6 +378,7 @@
 		};
 		639C7E131BF4897A00B796F2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1F5B326F4DA9967024AACCA2 /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = HYQWaterFlow/Info.plist;
@@ -300,6 +407,7 @@
 				639C7E131BF4897A00B796F2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

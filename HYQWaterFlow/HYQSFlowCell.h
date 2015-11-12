@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface HYQSFlowCell : UICollectionViewCell
+@property (nonatomic, strong) UIImageView *ivAvatar;
+@property (nonatomic, strong) NSString *imageUrl;
 
 @end
