@@ -1,7 +1,7 @@
 # HYQSFlow
 =================================
 
-WATER FLOW
+A Simple WATER FLOW
 
 ![image](https://github.com/Otherplayer/HYQSFlow/raw/master/Others/screenshot.png)
 ## Usage ##
