@@ -15,6 +15,7 @@ static NSString *IdentifierFlowCell = @"IdentifierFlowCell";
 @interface ViewController ()<HYQSFlowViewDelegate,HYQSFlowViewDataSource>
 @property (nonatomic, strong)HYQSFlow *flowView;
 @property (nonatomic, strong)NSMutableArray *dataSource;
+@property (nonatomic, strong)NSMutableDictionary *dataSourceHeight;
 @end
 
 @implementation ViewController
@@ -37,11 +38,14 @@ static NSString *IdentifierFlowCell = @"IdentifierFlowCell";
     dispatch_async(dispatch_get_global_queue(DISPATCH_QUEUE_PRIORITY_DEFAULT, 0), ^{
         // Data from ``
         self.dataSource = [[NSMutableArray alloc] init];
+        self.dataSourceHeight = [[NSMutableDictionary alloc] init];
         
         NSString *filePath = [[NSBundle mainBundle] pathForResource:@"pic_url.plist" ofType:nil];
         NSArray *dataArr = [NSArray arrayWithContentsOfFile:filePath];
         
-        [self.dataSource addObjectsFromArray:dataArr];
+        for (int i = 0; i < 20; i++) {
+            [self.dataSource addObjectsFromArray:dataArr];
+        }
         
         // Callback
         dispatch_async(dispatch_get_main_queue(), ^{
@@ -73,8 +77,19 @@ static NSString *IdentifierFlowCell = @"IdentifierFlowCell";
     return cell;
 }
 - (CGFloat)sFlow:(HYQSFlow *)sFlow heightForItemAtIndexPath:(NSIndexPath *)indexPath{
+    
+    NSNumber *heightNumber = self.dataSourceHeight[indexPath];
+    if (heightNumber) {
+        NSLog(@"Hit Cache");
+        return heightNumber.floatValue;
+    }
+    
     NSArray *heightArr = @[@(100),@(200),@(400),@(50)];
-    return [heightArr[indexPath.row % 3] integerValue];
+    CGFloat height = [heightArr[indexPath.row % 3] floatValue];
+    
+    self.dataSourceHeight[indexPath] = @(height);
+    
+    return height;
 }
 
 #pragma mark - configure
