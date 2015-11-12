@@ -2,9 +2,6 @@ Pod::Spec.new do |s|
   s.name         = "HYQSFlow"
   s.version      = "0.0.1"
   s.summary      = "HYQSFlow,water flow"
-  s.description  = <<-DESC
-                    HYQSFlow!
-                   DESC
   s.homepage     = "https://github.com/Otherplayer/HYQSFlow"
   s.license      = { :type => 'MIT', :file => 'LICENSE' }
   s.author       = { 'Otherplayer' => 'osmk@qq.com' }
