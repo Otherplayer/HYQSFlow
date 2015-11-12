@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/Otherplayer/HYQSFlow.git", :tag => '0.0.1' }
   s.platform     = :ios
   s.ios.deployment_target = '5.0'
-  s.source_files = '*.{h,m}'
+  s.source_files = 'Flow/*.{h,m}'
   s.requires_arc = true
   s.dependency "SDWebImage", "~> 3.7.3"
 end
