@@ -39,6 +39,8 @@
 - (void)layoutSubviews{
     [super layoutSubviews];
     
+    
+    
     self.ivAvatar.frame = self.bounds;
     NSURL *url = [NSURL URLWithString:self.imageUrl];
     [self.ivAvatar sd_setImageWithURL:url placeholderImage:nil];
