@@ -3,7 +3,7 @@
 
 A Simple WATER FLOW
 
-![image](https://github.com/Otherplayer/HYQSFlow/raw/master/Others/screenshot.png)
+![image](https://github.com/Otherplayer/HYQSFlow/raw/master/Others/screenshot.jpg)
 ## Usage ##
 
 Import 
