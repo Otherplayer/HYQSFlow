@@ -16,8 +16,8 @@
 		639C7E0D1BF4897A00B796F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E0B1BF4897A00B796F2 /* LaunchScreen.storyboard */; };
 		639C7E1D1BF4919300B796F2 /* HYQSFlowCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E1C1BF4919300B796F2 /* HYQSFlowCell.m */; };
 		639C7E1F1BF4940000B796F2 /* pic_url.plist in Resources */ = {isa = PBXBuildFile; fileRef = 639C7E1E1BF4940000B796F2 /* pic_url.plist */; };
-		639C7E251BF4A40C00B796F2 /* BGWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E221BF4A40C00B796F2 /* BGWaterFlowLayout.m */; };
-		639C7E261BF4A40C00B796F2 /* HYQSFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E241BF4A40C00B796F2 /* HYQSFlow.m */; };
+		639C7E2B1BF4A99F00B796F2 /* BGWaterFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E281BF4A99F00B796F2 /* BGWaterFlowLayout.m */; };
+		639C7E2C1BF4A99F00B796F2 /* HYQSFlow.m in Sources */ = {isa = PBXBuildFile; fileRef = 639C7E2A1BF4A99F00B796F2 /* HYQSFlow.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,10 +37,10 @@
 		639C7E1B1BF4919300B796F2 /* HYQSFlowCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQSFlowCell.h; sourceTree = "<group>"; };
 		639C7E1C1BF4919300B796F2 /* HYQSFlowCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQSFlowCell.m; sourceTree = "<group>"; };
 		639C7E1E1BF4940000B796F2 /* pic_url.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = pic_url.plist; sourceTree = "<group>"; };
-		639C7E211BF4A40C00B796F2 /* BGWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGWaterFlowLayout.h; sourceTree = "<group>"; };
-		639C7E221BF4A40C00B796F2 /* BGWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGWaterFlowLayout.m; sourceTree = "<group>"; };
-		639C7E231BF4A40C00B796F2 /* HYQSFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQSFlow.h; sourceTree = "<group>"; };
-		639C7E241BF4A40C00B796F2 /* HYQSFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQSFlow.m; sourceTree = "<group>"; };
+		639C7E271BF4A99F00B796F2 /* BGWaterFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGWaterFlowLayout.h; sourceTree = SOURCE_ROOT; };
+		639C7E281BF4A99F00B796F2 /* BGWaterFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGWaterFlowLayout.m; sourceTree = SOURCE_ROOT; };
+		639C7E291BF4A99F00B796F2 /* HYQSFlow.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HYQSFlow.h; sourceTree = SOURCE_ROOT; };
+		639C7E2A1BF4A99F00B796F2 /* HYQSFlow.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HYQSFlow.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,10 +113,10 @@
 		639C7E201BF4A40C00B796F2 /* Flow */ = {
 			isa = PBXGroup;
 			children = (
-				639C7E211BF4A40C00B796F2 /* BGWaterFlowLayout.h */,
-				639C7E221BF4A40C00B796F2 /* BGWaterFlowLayout.m */,
-				639C7E231BF4A40C00B796F2 /* HYQSFlow.h */,
-				639C7E241BF4A40C00B796F2 /* HYQSFlow.m */,
+				639C7E271BF4A99F00B796F2 /* BGWaterFlowLayout.h */,
+				639C7E281BF4A99F00B796F2 /* BGWaterFlowLayout.m */,
+				639C7E291BF4A99F00B796F2 /* HYQSFlow.h */,
+				639C7E2A1BF4A99F00B796F2 /* HYQSFlow.m */,
 			);
 			path = Flow;
 			sourceTree = "<group>";
@@ -253,9 +253,9 @@
 			files = (
 				639C7E1D1BF4919300B796F2 /* HYQSFlowCell.m in Sources */,
 				639C7E051BF4897A00B796F2 /* ViewController.m in Sources */,
-				639C7E251BF4A40C00B796F2 /* BGWaterFlowLayout.m in Sources */,
+				639C7E2B1BF4A99F00B796F2 /* BGWaterFlowLayout.m in Sources */,
 				639C7E021BF4897A00B796F2 /* AppDelegate.m in Sources */,
-				639C7E261BF4A40C00B796F2 /* HYQSFlow.m in Sources */,
+				639C7E2C1BF4A99F00B796F2 /* HYQSFlow.m in Sources */,
 				639C7DFF1BF4897A00B796F2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
